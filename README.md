@@ -14,33 +14,15 @@ Before running the script, ensure you have the following installed on your compu
 - Selenium
 - GeckoDriver (for Firefox)
 
-You can install Selenium via pip: 
-Bien sûr, voici la syntaxe Markdown pour votre README :
-
-markdown
-Copy code
-# OneX_bet_Bot
-
-Bet slip bot creator.
-
-## 1xbet Scraper
-
-### Introduction
-This script allows you to scrape sports betting information from the 1xbet website. It utilizes Selenium, a powerful tool for automating web browsers, to extract data such as game names, dates, and links.
-
-### Prerequisites
-Before running the script, ensure you have the following installed on your computer:
-
-- Python 3.x
-- Selenium
-- GeckoDriver (for Firefox)
-
 You can install Selenium via pip:
+```bash
 pip install selenium
+```
 
 You can install GeckoDriver using the WebDriver Manager for Python:
+```bash
 pip install webdriver-manager
-
+```
 
 ### Setup
 1. Clone this repository to your local machine.
