@@ -12,8 +12,9 @@ from termcolor import colored
 
 options = Options()
 # options.add_argument("--headless")
+# options.add_argument("--start-maximized")
 
-driver = webdriver.Firefox()
+driver = webdriver.Firefox(options=options)
 driver.maximize_window()
 
 
@@ -44,7 +45,7 @@ def get_categories_link():
         a_link = category.find_element(By.TAG_NAME, 'a')
         href = a_link.get_attribute('href')
         category_name = a_link.get_attribute('data-sporturl')
-        if category_name not in ['Météo', 'Politique', 'TOTO', 'Paris spéciaux', 'Loterie', 'Jeux télé']:
+        if category_name not in ['Politique', 'Sumo', 'Roller hockey', 'Pesäpallo', 'Formule 1', 'Beach Soccer', 'Hockey sur Gazon']:
             categories[category_name] = href
 
     return categories
@@ -55,7 +56,6 @@ def get_subcategries_link():
     """
         This function returns all subcategories of a given category with their corresponding link
     """
-
     # get all sport category with their corresponding links
     sport_categories = get_categories_link()
     # randomly select a sport category with its corresponding link
@@ -69,7 +69,6 @@ def get_subcategries_link():
     subcategories = {}
 
     for subcategory in sport_subcategories_list:
-
         # if classname is 'liga-menu' then get directly the 'href' and the subategory name
         if subcategory.get_attribute('class') == 'liga_menu':
             a_link = subcategory.find_element(By.TAG_NAME, 'a')
@@ -94,9 +93,11 @@ def get_subcategries_link():
                 
 
             subcategories[subcategory_name] = subcategories_of_subcategory_list_hrefs
-       
-                
+      
     return subcategories
+    # else:
+    #     print(colored("An Unexpected Error Occured While Getting The Subcategories...Skipping",'red'))
+    #     get_subcategries_link()
 
 
 def get_games_link():
@@ -238,8 +239,6 @@ def make_bet_slip(total_odds:float=1000):
 
     print(colored(f"Here is the code: {code}", "light_grey"))
 
-
-
 def get_overall_odds():
     try:
         overall_oods = float(driver.find_element(By.XPATH, "//div[@class='cpn-total__coef']//span").text)
@@ -247,8 +246,6 @@ def get_overall_odds():
     except ValueError:
         print(colored("An Unexpected Error Occured Whiled Getting the Overall Odds", "red"))
         return 0.0
-                 
-
 
 def is_date_less(input_date_str, limit_date_str):
   input_date = datetime.strptime(input_date_str.split()[0], '%d/%m/%Y')
@@ -256,7 +253,5 @@ def is_date_less(input_date_str, limit_date_str):
   
   # Check if input date is less or equal than the limit date
   return input_date <= limit_date
-
-
 
 make_bet_slip()
