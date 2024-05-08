@@ -26,7 +26,7 @@ def get_categories_link():
     """
     
     # go to 1xbet website and Wait for the aside element to load by waiting for 5 seconds 
-    driver.get('https://1xbet.ci/')
+    driver.get('https://1xbet.com/')
     print(colored("[*INFO*] Step 1: Getting Sport Category....", "blue"))
     driver.implicitly_wait(5)
     
@@ -126,19 +126,27 @@ def get_games_link():
             game_event_container = game_event.find_element(By.TAG_NAME, 'a')
             href = game_event_container.get_attribute('href')
             game_name = game_event_container.find_element(By.CLASS_NAME, "gname").text
-            date = game_event_container.find_element(By.CLASS_NAME, "date").text
+            
+             # Utilisation d'une expression XPath pour sélectionner le deuxième élément <span> à l'intérieur de <span class="date">
+            
+            date_elements = game_event_container.find_elements(By.XPATH, ".//span[@class='date']/span")
+            if len(date_elements) > 1:
+                date_element = date_elements[-1]  # Sélectionner le dernier élément s'il y en a plusieurs
+            else:
+                date_element = date_elements[0]  # Sélectionner le seul élément s'il y en a un seul
+            date = date_element.text
             game_info = game_event_container.find_element(By.CLASS_NAME, 'game-info').text
         except NoSuchElementException:
             # if game info is not available
             game_info = 'Unavailable'
 
         # print(f"""
-        #         Game name: {game_name}
-        #         Date: {date}
-        #         Info: {game_info}
-        #         href: {href}
-        #         ---------------------
-        #       """)
+        #          Game name: {game_name}
+        #          Date: {date}
+        #          Info: {game_info}
+        #          href: {href}
+        #          ---------------------
+        #    """)
 
         game_event_list.append({"href": href,
                                 "game_name": game_name,
@@ -163,7 +171,11 @@ def make_bet(date:str="14/05/2024", odd:float=1.180): #1.180 #datetime.now().str
     """
     games_event =  get_games_link()
     random_game_event = random.choice(games_event)
-    
+
+    print("--------------------------------")
+    print(random_game_event["date"])
+    print("--------------------------------")
+
     if is_date_less(random_game_event["date"], date):
     
   

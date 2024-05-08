@@ -1,0 +1,1060 @@
+1715084481899	geckodriver	INFO	Listening on 127.0.0.1:61319
+1715084484933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61320" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileG6G2Gh"
+1715084485554	Marionette	INFO	Marionette enabled
+1715084485560	Marionette	INFO	Listening on port 61329
+Read port: 61329
+WebDriver BiDi listening on ws://127.0.0.1:61320
+1715084485715	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileG6G2Gh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61320/devtools/browser/85e26888-5c0c-472d-8ad3-eb69cd0d07ab
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.bd92edf4c41c0608e627.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.bd92edf4c41c0608e627.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.bd92edf4c41c0608e627.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Timeout
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+1715085110335	Marionette	INFO	Stopped listening on port 61329
+C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61487" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilegKppzY"
+1715084853087	Marionette	INFO	Marionette enabled
+1715084853092	Marionette	INFO	Listening on port 61496
+Read port: 61496
+WebDriver BiDi listening on ws://127.0.0.1:61487
+1715084853228	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilegKppzY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61487/devtools/browser/6f39326a-b67c-4d7b-9a56-746fb0e36443
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.bd92edf4c41c0608e627.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.bd92edf4c41c0608e627.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.bd92edf4c41c0608e627.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1715085112711	Marionette	INFO	Stopped listening on port 61496
+5085111608	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61617" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile6vXguX"
+1715085111988	Marionette	INFO	Marionette enabled
+1715085111993	Marionette	INFO	Listening on port 61626
+Read port: 61626
+WebDriver BiDi listening on ws://127.0.0.1:61617
+1715085112135	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile6vXguX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:61617/devtools/browser/da6fd11a-a61a-4111-a367-dc67bd47e078
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.bd92edf4c41c0608e627.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.bd92edf4c41c0608e627.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.bd92edf4c41c0608e627.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+1715088736283	Marionette	INFO	Stopped listening on port 61626
+[Parent 14936, IPC I/O Parent] WARNING: DuplicateHandle failed for handle 0 in TransferHandles: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:746
+no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilezCZ3mD"
+1715088707467	Marionette	INFO	Marionette enabled
+1715088707473	Marionette	INFO	Listening on port 55893
+Read port: 55893
+WebDriver BiDi listening on ws://127.0.0.1:55881
+1715088707643	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilezCZ3mD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55881/devtools/browser/7284a4f1-4807-4c31-ac67-0b00df244dba
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:325:29
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+1715088713385	Marionette	INFO	Stopped listening on port 55893
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1715088727253	geckodriver	INFO	Listening on 127.0.0.1:55959
+1715088730302	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55960" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileLZYMpB"
+1715088730702	Marionette	INFO	Marionette enabled
+1715088730708	Marionette	INFO	Listening on port 55971
+Read port: 55971
+WebDriver BiDi listening on ws://127.0.0.1:55960
+1715088730869	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileLZYMpB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55960/devtools/browser/f2fa8bbc-eabb-412b-8aae-e04d22b69043
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+1715089158765	Marionette	INFO	Stopped listening on port 55971
+C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56088" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile27uAYi"
+1715088944442	Marionette	INFO	Marionette enabled
+1715088944447	Marionette	INFO	Listening on port 56097
+Read port: 56097
+WebDriver BiDi listening on ws://127.0.0.1:56088
+1715088944609	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofile27uAYi\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56088/devtools/browser/5b41e8a8-aaac-496e-91f5-b223562d7a62
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1715089032347	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: , line 0: uncaught exception: Timeout (j)
+1715089239917	Marionette	INFO	Stopped listening on port 56097
+1715089243674	geckodriver	INFO	Listening on 127.0.0.1:56271
+1715089246715	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56272" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileq8zCjr"
+1715089247255	Marionette	INFO	Marionette enabled
+1715089247261	Marionette	INFO	Listening on port 56282
+Read port: 56282
+WebDriver BiDi listening on ws://127.0.0.1:56272
+1715089247414	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileq8zCjr\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56272/devtools/browser/230b0a40-622d-4071-9021-24529ffac7b5
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://1xbet.ci/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1715089344641	Marionette	INFO	Stopped listening on port 56282
+1715089350035	geckodriver	INFO	Listening on 127.0.0.1:56389
+1715089353058	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56390" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileC5EgIN"
+1715089353469	Marionette	INFO	Marionette enabled
+1715089353474	Marionette	INFO	Listening on port 56399
+Read port: 56399
+WebDriver BiDi listening on ws://127.0.0.1:56390
+1715089353637	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileC5EgIN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56390/devtools/browser/f6502845-0c4a-4934-8d09-3cd2353012ac
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+1715090087080	Marionette	INFO	Stopped listening on port 56399
+C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56666" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileGZWaWI"
+1715089573704	Marionette	INFO	Marionette enabled
+1715089573709	Marionette	INFO	Listening on port 56676
+Read port: 56676
+WebDriver BiDi listening on ws://127.0.0.1:56666
+1715089573843	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileGZWaWI\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56666/devtools/browser/cbacaba0-fe12-42d9-9d53-ec0aa2234f15
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+1715090069431	Marionette	INFO	Stopped listening on port 56676
+C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "56810" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileu6dXJz"
+1715089647155	Marionette	INFO	Marionette enabled
+1715089647161	Marionette	INFO	Listening on port 56820
+Read port: 56820
+WebDriver BiDi listening on ws://127.0.0.1:56810
+1715089647315	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileu6dXJz\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56810/devtools/browser/4ca50e94-3192-4aa6-8779-a2cc7bbc63db
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+1715090067829	Marionette	INFO	Stopped listening on port 56820
+1715090082245	geckodriver	INFO	Listening on 127.0.0.1:57033
+1715090085307	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57034" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileJ5Tz7c"
+1715090085844	Marionette	INFO	Marionette enabled
+1715090085850	Marionette	INFO	Listening on port 57043
+Read port: 57043
+WebDriver BiDi listening on ws://127.0.0.1:57034
+1715090086017	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileJ5Tz7c\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57034/devtools/browser/42f815f8-d2eb-43d3-b543-e535efd7a597
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+1715090863989	Marionette	INFO	Stopped listening on port 57043
+1715129350432	geckodriver	INFO	Listening on 127.0.0.1:49888
+1715129353483	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49889" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileIPX4pG"
+1715129354201	Marionette	INFO	Marionette enabled
+1715129354209	Marionette	INFO	Listening on port 49898
+Read port: 49898
+WebDriver BiDi listening on ws://127.0.0.1:49889
+1715129354396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileIPX4pG\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49889/devtools/browser/e0acb966-d81a-4d18-8f8f-76ec7ea152ac
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:325:29
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+1715129359580	Marionette	INFO	Stopped listening on port 49898
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1715129404980	geckodriver	INFO	Listening on 127.0.0.1:50081
+1715129408071	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50082" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileCsEHHF"
+1715129408454	Marionette	INFO	Marionette enabled
+1715129408461	Marionette	INFO	Listening on port 50093
+Read port: 50093
+WebDriver BiDi listening on ws://127.0.0.1:50082
+1715129408597	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileCsEHHF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50082/devtools/browser/eb79eeb7-54ee-44f1-8f3e-dc66ce5bb725
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.1f89417ec629c31fad2a.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginReciconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileXhJuPM\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50210/devtools/browser/0594f3b5-5c95-498d-9ca7-78664d730dbf
+1715129564128	Marionette	INFO	Stopped listening on port 50219
+1715168301873	geckodriver	INFO	Listening on 127.0.0.1:65520
+1715168304900	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65521" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileLULAob"
+1715168305575	Marionette	INFO	Marionette enabled
+1715168305581	Marionette	INFO	Listening on port 65530
+Read port: 65530
+WebDriver BiDi listening on ws://127.0.0.1:65521
+1715168305762	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileLULAob\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:65521/devtools/browser/7e4eda83-d7af-4e75-ad96-2156be76a1bc
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:325:29
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+1715168312188	Marionette	INFO	Stopped listening on port 65530
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1687:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:369:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:242:17
+Barrier/addBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:751:20
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:703:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:511:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:450:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1563:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1583:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:560:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 703: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1715168468425	geckodriver	INFO	Listening on 127.0.0.1:58475
+1715168471431	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58476" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilet2cH24"
+1715168471861	Marionette	INFO	Marionette enabled
+1715168471867	Marionette	INFO	Listening on port 58485
+Read port: 58485
+WebDriver BiDi listening on ws://127.0.0.1:58476
+1715168472046	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilet2cH24\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58476/devtools/browser/84df307b-37a6-413c-88fa-27abdf6ba830
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.f9af8ca6220c6c06f5e2.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.f9af8ca6220c6c06f5e2.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.f9af8ca6220c6c06f5e2.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.f9af8ca6220c6c06f5e2.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Defaul1715169328318	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "58818" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofiledlPT5y"
+1715169328788	Marionette	INFO	Marionette enabled
+1715169328795	Marionette	INFO	Listening on port 58827
+Read port: 58827
+WebDriver BiDi listening on ws://127.0.0.1:58818
+1715169328974	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofiledlPT5y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58818/devtools/browser/9f6d3967-6882-4289-aa59-2659ad3dbbc4
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+1715169379744	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+1715169380681	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+1715169381445	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+1715169382792	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+1715169383618	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.f9af8ca6220c6c06f5e2.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.f9af8ca6220c6c06f5e2.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.f9af8ca6220c6c06f5e2.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Defaul1715169760066	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.2570a69ae4e515d1f5f5.bundle.js, line 1: Error: "connection_time" is read-only
+TERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.33c0f8032e806c5cf9e7.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.33c0f8032e806c5cf9e7.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.33c0f8032e806c5cf9e7.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+1715171832274	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+1715172009592	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+1715172010496	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+1715172011363	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+1715172012222	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+1715172418862	geckodriver	INFO	Listening on 127.0.0.1:59968
+1715172421875	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59969" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileM2ZoZY"
+1715172422427	Marionette	INFO	Marionette enabled
+1715172422436	Marionette	INFO	Listening on port 59984
+Read port: 59984
+WebDriver BiDi listening on ws://127.0.0.1:59969
+1715172422638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofileM2ZoZY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59969/devtools/browser/587c806f-5875-49b7-bd18-160333d3da7f
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.33c0f8032e806c5cf9e7.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.33c0f8032e806c5cf9e7.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.33c0f8032e806c5cf9e7.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.33c0f8032e806c5cf9e7.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.33c0f8032e806c5cf9e7.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.33c0f8032e806c5cf9e7.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+1715172615171	Marionette	INFO	Stopped listening on port 59981715172615883	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60134" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilebTVI33"
+1715172616290	Marionette	INFO	Marionette enabled
+1715172616296	Marionette	INFO	Listening on port 60145
+Read port: 60145
+WebDriver BiDi listening on ws://127.0.0.1:60134
+1715172616464	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\pc\\AppData\\Local\\Temp\\rust_mozprofilebTVI33\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60134/devtools/browser/32048d13-03bd-45d4-b67c-fd87f26a37bd
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 302: NS_ERROR_FAILURE: Should pass a non-null uri
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.33c0f8032e806c5cf9e7.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 116: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsIWebProgress.DOMWindow]
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.33c0f8032e806c5cf9e7.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://v2l.cdnafric.com/bundle/app/Default/Desktop/vendorF.33c0f8032e806c5cf9e7.bundle.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://1xbet.co.ke."
+JavaScript error: https://v2l.cdnafric.com/bundle/app/Default/Desktop/legacy_betting.21545f000e0ea216de93.bundle.js, line 1: Error: "connection_time" is read-only
