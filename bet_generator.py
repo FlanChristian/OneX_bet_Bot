@@ -29,6 +29,24 @@ def get_categories_link():
     driver.get('https://1xbet.com/')
     print(colored("[*INFO*] Step 1: Getting Sport Category....", "blue"))
     driver.implicitly_wait(5)
+
+    
+    driver.find_element(By.XPATH, '//a[@class="pf-subs-btn-link"]').click()
+    driver.implicitly_wait(10)
+
+    # filter the match by date
+
+    driver.find_element(By.ID, 'line_href').click()
+    driver.implicitly_wait(5)
+    driver.find_element(By.XPATH, '//div[@class="ls-filter__name"]').click()
+
+    driver.implicitly_wait(5)
+
+    # find the datepiker input for the debut
+    input_element = driver.find_element(By.XPATH, '//input[@class="c-filter-datepiker__input"]')
+    input_element.clear()  # delete previous text
+    input_element.send_keys(datetime.now().strftime('%d/%m/%Y'))
+
     
     # since the aside is split in two part we are going to get both
     aside1 = driver.find_element(By.XPATH, '//div[@class="assideCon_body top5 3 u-display-block"]')
@@ -104,7 +122,7 @@ def get_games_link():
     """
         This function get the game name,  game info, the date, and the game link of the slected game subcatecaory
     """
-    # get game sbcategry list
+    # get game subcategory list
     sport_subcategories = get_subcategries_link()
     # make it random
     random_sport_subcategory, random_link = random.choice(list(sport_subcategories.items()))
@@ -126,7 +144,7 @@ def get_games_link():
             game_event_container = game_event.find_element(By.TAG_NAME, 'a')
             href = game_event_container.get_attribute('href')
             game_name = game_event_container.find_element(By.CLASS_NAME, "gname").text
-            
+
              # Utilisation d'une expression XPath pour sélectionner le deuxième élément <span> à l'intérieur de <span class="date">
             
             date_elements = game_event_container.find_elements(By.XPATH, ".//span[@class='date']/span")
@@ -135,6 +153,7 @@ def get_games_link():
             else:
                 date_element = date_elements[0]  # Sélectionner le seul élément s'il y en a un seul
             date = date_element.text
+
             game_info = game_event_container.find_element(By.CLASS_NAME, 'game-info').text
         except NoSuchElementException:
             # if game info is not available
@@ -171,10 +190,6 @@ def make_bet(date:str="14/05/2024", odd:float=1.180): #1.180 #datetime.now().str
     """
     games_event =  get_games_link()
     random_game_event = random.choice(games_event)
-
-    print("--------------------------------")
-    print(random_game_event["date"])
-    print("--------------------------------")
 
     if is_date_less(random_game_event["date"], date):
     
