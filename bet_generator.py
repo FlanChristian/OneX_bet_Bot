@@ -5,10 +5,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import ElementClickInterceptedException, NoSuchElementException
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.support.expected_conditions import  NoAlertPresentException, presence_of_element_located
 import random
 from datetime import datetime
 import pyperclip
 from termcolor import colored
+import time
 
 options = Options()
 # options.add_argument("--headless")
@@ -18,34 +20,63 @@ driver = webdriver.Firefox(options=options)
 driver.maximize_window()
 
 
+# go to 1xbet website and Wait for the aside element to load by waiting for 5 seconds 
+driver.get('https://1xbet.com/')
 
+driver.implicitly_wait(5)
+
+# delete the pop up pub
+driver.find_element(By.XPATH, '//a[@class="pf-subs-btn-link"]').click()
+time.sleep(5)
+
+# filter the match by date today and the next day
+driver.find_element(By.ID, 'line_href').click()
+time.sleep(5)
+
+selectdate = driver.find_elements(By.XPATH, '//span[@class="ls-filter__check"]')
+
+for element in selectdate:
+    element.click()
+
+datpicker = driver.find_elements(By.XPATH, '//div[@class="vdp-datepicker ls-filter__input c-filter-datepiker"]')
+
+debut = True
+
+
+wait = WebDriverWait(driver, 10)
+
+# we find the inputs of the filters end we asign them our date (today and the next day)
+for element in datpicker:
+    element.click()
+    wait.until(presence_of_element_located((By.XPATH, '//span[@class="cell day today"]')))
+
+    if debut == True:
+        today = driver.find_element(By.XPATH, '//span[@class="cell day today"]')
+        today.click()
+        day = today.text
+        print(day)
+        debut = False
+    else:
+        print("else")
+        xpath_expression = f'//span[@class="cell day" and text()="{int(day) + 1}"]'
+        driver.find_element(By.XPATH, xpath_expression).click()
+   
+driver.find_element(By.XPATH, '//button[@class="ls-filter__btn"]').click()    
+
+                          
 def get_categories_link():
     """
         This function select the link of all sport categories from an <aside> and returns them in a dict format
     
     """
+
     
-    # go to 1xbet website and Wait for the aside element to load by waiting for 5 seconds 
-    driver.get('https://1xbet.com/')
     print(colored("[*INFO*] Step 1: Getting Sport Category....", "blue"))
-    driver.implicitly_wait(5)
-
-    
-    driver.find_element(By.XPATH, '//a[@class="pf-subs-btn-link"]').click()
-    driver.implicitly_wait(10)
-
-    # filter the match by date
-
-    driver.find_element(By.ID, 'line_href').click()
-    driver.implicitly_wait(5)
-    driver.find_element(By.XPATH, '//div[@class="ls-filter__name"]').click()
-
-    driver.implicitly_wait(5)
 
     # find the datepiker input for the debut
-    input_element = driver.find_element(By.XPATH, '//input[@class="c-filter-datepiker__input"]')
-    input_element.clear()  # delete previous text
-    input_element.send_keys(datetime.now().strftime('%d/%m/%Y'))
+    # input_element = driver.find_element(By.XPATH, '//input[@class="c-filter-datepiker__input"]')
+    # input_element.clear()  # delete previous text
+    # input_element.send_keys(datetime.now().strftime('%d/%m/%Y'))
 
     
     # since the aside is split in two part we are going to get both
@@ -155,6 +186,7 @@ def get_games_link():
             date = date_element.text
 
             game_info = game_event_container.find_element(By.CLASS_NAME, 'game-info').text
+
         except NoSuchElementException:
             # if game info is not available
             game_info = 'Unavailable'
