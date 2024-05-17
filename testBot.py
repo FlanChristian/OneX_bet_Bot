@@ -26,7 +26,7 @@ def get_categories_link():
     """
     
     # go to 1xbet website and Wait for the aside element to load by waiting for 5 seconds 
-    driver.get('https://1xbet.com/')
+    driver.get('https://1xbet.ci/')
     driver.implicitly_wait(5)
     
     # since the aside is split in two part we are going to get both
