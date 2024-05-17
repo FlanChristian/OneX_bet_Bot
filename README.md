@@ -34,8 +34,11 @@ pip install webdriver-manager
 ### Usage
 1. Open a terminal or command prompt.
 2. Navigate to the project directory.
-3. Run the script using the following command: python testBot.py
-4. Follow the prompts to interact with the script and scrape sports betting information from the 1xbet website.
+3. Run the script using the following command:
+   ```bash
+    python bet_generator.py
+   ```
+5. Follow the prompts to interact with the script and scrape sports betting information from the 1xbet website.
 
 ### Notes
 - By default, the script runs with Firefox in headless mode. You can uncomment the `options.add_argument("--headless")` line in the script if you want to run it in visible mode.
