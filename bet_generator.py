@@ -5,12 +5,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import ElementClickInterceptedException, NoSuchElementException
 from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.support.expected_conditions import  NoAlertPresentException, presence_of_element_located
 import random
 from datetime import datetime
 import pyperclip
 from termcolor import colored
-import time
 
 options = Options()
 # options.add_argument("--headless")
@@ -20,64 +18,17 @@ driver = webdriver.Firefox(options=options)
 driver.maximize_window()
 
 
-# go to 1xbet website and Wait for the aside element to load by waiting for 5 seconds 
-driver.get('https://1xbet.com/')
 
-driver.implicitly_wait(5)
-
-# delete the pop up pub
-driver.find_element(By.XPATH, '//a[@class="pf-subs-btn-link"]').click()
-time.sleep(5)
-
-# filter the match by date today and the next day
-driver.find_element(By.ID, 'line_href').click()
-time.sleep(5)
-
-selectdate = driver.find_elements(By.XPATH, '//span[@class="ls-filter__check"]')
-
-for element in selectdate:
-    element.click()
-
-datpicker = driver.find_elements(By.XPATH, '//div[@class="vdp-datepicker ls-filter__input c-filter-datepiker"]')
-
-debut = True
-
-
-wait = WebDriverWait(driver, 10)
-
-# we find the inputs of the filters end we asign them our date (today and the next day)
-for element in datpicker:
-    element.click()
-    wait.until(presence_of_element_located((By.XPATH, '//span[@class="cell day today"]')))
-
-    if debut == True:
-        today = driver.find_element(By.XPATH, '//span[@class="cell day today"]')
-        today.click()
-        day = today.text
-        print(day)
-        debut = False
-    else:
-        print("else")
-        xpath_expression = f'//span[@class="cell day" and text()="{int(day) + 1}"]'
-        driver.find_element(By.XPATH, xpath_expression).click()
-   
-driver.find_element(By.XPATH, '//button[@class="ls-filter__btn"]').click()    
-
-                          
 def get_categories_link():
     """
         This function select the link of all sport categories from an <aside> and returns them in a dict format
     
     """
-
     
+    # go to 1xbet website and Wait for the aside element to load by waiting for 5 seconds 
+    driver.get('https://1xbet.ci/')
     print(colored("[*INFO*] Step 1: Getting Sport Category....", "blue"))
-
-    # find the datepiker input for the debut
-    # input_element = driver.find_element(By.XPATH, '//input[@class="c-filter-datepiker__input"]')
-    # input_element.clear()  # delete previous text
-    # input_element.send_keys(datetime.now().strftime('%d/%m/%Y'))
-
+    driver.implicitly_wait(5)
     
     # since the aside is split in two part we are going to get both
     aside1 = driver.find_element(By.XPATH, '//div[@class="assideCon_body top5 3 u-display-block"]')
@@ -153,7 +104,7 @@ def get_games_link():
     """
         This function get the game name,  game info, the date, and the game link of the slected game subcatecaory
     """
-    # get game subcategory list
+    # get game sbcategry list
     sport_subcategories = get_subcategries_link()
     # make it random
     random_sport_subcategory, random_link = random.choice(list(sport_subcategories.items()))
@@ -175,29 +126,19 @@ def get_games_link():
             game_event_container = game_event.find_element(By.TAG_NAME, 'a')
             href = game_event_container.get_attribute('href')
             game_name = game_event_container.find_element(By.CLASS_NAME, "gname").text
-
-             # Utilisation d'une expression XPath pour sélectionner le deuxième élément <span> à l'intérieur de <span class="date">
-            
-            date_elements = game_event_container.find_elements(By.XPATH, ".//span[@class='date']/span")
-            if len(date_elements) > 1:
-                date_element = date_elements[-1]  # Sélectionner le dernier élément s'il y en a plusieurs
-            else:
-                date_element = date_elements[0]  # Sélectionner le seul élément s'il y en a un seul
-            date = date_element.text
-
+            date = game_event_container.find_element(By.CLASS_NAME, "date").text
             game_info = game_event_container.find_element(By.CLASS_NAME, 'game-info').text
-
         except NoSuchElementException:
             # if game info is not available
             game_info = 'Unavailable'
 
         # print(f"""
-        #          Game name: {game_name}
-        #          Date: {date}
-        #          Info: {game_info}
-        #          href: {href}
-        #          ---------------------
-        #    """)
+        #         Game name: {game_name}
+        #         Date: {date}
+        #         Info: {game_info}
+        #         href: {href}
+        #         ---------------------
+        #       """)
 
         game_event_list.append({"href": href,
                                 "game_name": game_name,
@@ -207,90 +148,98 @@ def get_games_link():
     return game_event_list
 
 
-def make_bet(date:str="14/05/2024", odd:float=1.180): #1.180 #datetime.now().strftime('%d/%m/%Y')
+def make_bet(start_date: str = "14/05/2024", end_date: str = "15/05/2024", min_odd: float = 1.01, max_odd: float = 1.50, num_games: int = 10):
     """
-    This function take a game event and make a single bet
+    This function takes a game event and makes a single bet
 
     Parameters:
-          date: the maximum date we want the bot to not exceed while making the bet slip.
-                  eg: if the date is set to tomorow, it will randomly select bets ranging from today to tomorow. 
-                  We are not considering live bets because the odds are not stables.
-                  default is today's date in format dd/mm/yy.
-
-            odd: the maximum odd. eg: if the odd is 1.1000 the bot we select all games'odd that are lower or equal the selected value
-                 default is 1.180
+        start_date: the starting date for the range of games to consider.
+                    default is "14/05/2024".
+        end_date: the ending date for the range of games to consider.
+                  default is "15/05/2024".
+        min_odd: the minimum odd value for the bet.
+                 default is 1.01
+        max_odd: the maximum odd value for the bet.
+                 default is 1.50
+        num_games: the number of games to include in the bet slip.
+                   default is 10
     """
-    games_event =  get_games_link()
-    random_game_event = random.choice(games_event)
+    games_event = get_games_link()
+    selected_games = []
 
-    if is_date_less(random_game_event["date"], date):
-    
-  
-        print(colored(f"[*INFO*] Step 3: Done. {random_game_event['game_name']} Selected.", "green"))
-        driver.get(random_game_event['href'])
-        print(colored(f"[*INFO*] Step 4: Getting a Bet...", "blue"))
-        
-        driver.implicitly_wait(2)
+    for game_event in games_event:
+        game_date = datetime.strptime(game_event["date"].split()[0], '%d/%m/%Y')
+        start_date_obj = datetime.strptime(start_date.split()[0], '%d/%m/%Y')
+        end_date_obj = datetime.strptime(end_date.split()[0], '%d/%m/%Y')
 
-        bet_contents = driver.find_elements(By.XPATH, "//div[@class='bet-inner']")
-        odds_filtered = []
+        if start_date_obj <= game_date <= end_date_obj:
+            driver.get(game_event['href'])
+            bet_contents = driver.find_elements(By.XPATH, "//div[@class='bet-inner']")
+            odds_filtered = []
 
-        for bet_content in bet_contents:
-            bet_content_elements = bet_content.find_elements(By.TAG_NAME, "span")
-            bet_content_btn = bet_content_elements[0]
-            bet_content_odd = bet_content_elements[1].text
+            for bet_content in bet_contents:
+                bet_content_elements = bet_content.find_elements(By.TAG_NAME, "span")
+                bet_content_btn = bet_content_elements[0]
+                bet_content_odd = bet_content_elements[1].text
 
-            if bet_content_odd:
-                try:
-                    koef = float(bet_content_odd)
-                    if koef <= odd:
-                        odds_filtered.append((bet_content_btn, bet_content_odd))
-                except ValueError:
-                    print(colored("An Unexpected Error Occured While Retrieving The Odds", "red"))
-                    return 0
+                if bet_content_odd:
+                    try:
+                        koef = float(bet_content_odd)
+                        if min_odd <= koef <= max_odd:
+                            odds_filtered.append((bet_content_btn, bet_content_odd))
+                    except ValueError:
+                        print(colored("An Unexpected Error Occurred While Retrieving The Odds", "red"))
 
-        
-        if odds_filtered:
-            random_bet = random.choice(odds_filtered)
-            random_bet[0].click()
-            print(colored(f"[*INFO*] Step 4: Done. Bet: {random_bet[0].text} - Odd: {random_bet[1]}", "green"))
-            print(colored(f"Overall Odds: {get_overall_odds()}", "magenta"))
-            print("-----------------------------------------------------")
+            if odds_filtered:
+                random_bet = random.choice(odds_filtered)
+                random_bet[0].click()
+                print(colored(f"[*INFO*] Game: {game_event['game_name']} - Bet: {random_bet[0].text} - Odd: {random_bet[1]}", "green"))
+                selected_games.append(game_event)
 
-        else:
-            print(colored(f"[*INFO*] Step 3: No Bet Found for Odd {odd}. Skipping..", "yellow"))
+            if len(selected_games) >= num_games:
+                break
 
+    if len(selected_games) < num_games:
+        print(colored(f"[*INFO*] Not enough games found for the specified range ({start_date} to {end_date}), odd range ({min_odd} to {max_odd}), and number of games ({num_games})", "yellow"))
     else:
-        print(colored(f"[*INFO*] Step 3: No Games Found for {date}. skipping...", "yellow"))
-    
+        print(colored(f"Overall Odds: {get_overall_odds()}", "magenta"))
+        print("-----------------------------------------------------")
 
-def make_bet_slip(total_odds:float=1000):
+def make_bet_slip(min_odd: float = 1.01, max_odd: float = 1.50, num_games: int = 10, total_odds: float = 1000.0, start_date: str = "14/05/2024", end_date: str = "15/05/2024"):
     """
-    This function is continously looping as long as the the total odds values is not the reach.
-    The games will be randomly selected to decrease the loss probabilities. 
+    This function continuously loops until the total odds value is reached or the maximum number of games is selected.
+    The games will be randomly selected to decrease the loss probabilities.
 
     Parameters:
-
-            total_odds: the total odds to reach. eg: if the value is set to 1000, the bot we continously selecting games with the given odd
-                        that will accumulate to reach the value of the total odds.
-                        defaut is 1000
+        min_odd: the minimum odd value for the bet.
+                 default is 1.01
+        max_odd: the maximum odd value for the bet.
+                 default is 1.50
+        num_games: the number of games to include in the bet slip.
+                   default is 10
+        total_odds: the total odds to reach. eg: if the value is set to 1000, the bot will continuously select games with the given odd
+                    range that will accumulate to reach the value of the total odds.
+                    default is 1000.0
+        start_date: the starting date for the range of games to consider.
+                    default is "14/05/2024".
+        end_date: the ending date for the range of games to consider.
+                  default is "15/05/2024".
     """
-    current_odd = 0.0 
+    current_odd = 0.0
     while current_odd < total_odds:
-        make_bet()
+        make_bet(start_date=start_date, end_date=end_date, min_odd=min_odd, max_odd=max_odd, num_games=num_games)
         try:
-            current_odd = get_overall_odds() 
+            current_odd = get_overall_odds()
         except NoSuchElementException:
             continue
-    
-    #  if we reach an overall odd of 1000, click on the save/load button
-    driver.find_element(By.XPATH, "//button[@class='cpn-btn cpn-events__trigger cpn-btn--size-m cpn-btn--block']").click()
-    # wait until the save button is clickable then click it
-    WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.XPATH, '//button[@class="cpn-btn cpn-events__btn cpn-btn--theme-accent cpn-btn--size-m cpn-btn--default"]'))).click()
-    # wait for 5 more seconds
-    driver.implicitly_wait(5)
-    # get the bet slip code
 
+    # If we reach an overall odd of 1000, click on the save/load button
+    driver.find_element(By.XPATH, "//button[@class='cpn-btn cpn-events__trigger cpn-btn--size-m cpn-btn--block']").click()
+    # Wait until the save button is clickable, then click it
+    WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.XPATH, '//button[@class="cpn-btn cpn-events__btn cpn-btn--theme-accent cpn-btn--size-m cpn-btn--default"]'))).click()
+    # Wait for 5 more seconds
+    driver.implicitly_wait(5)
+    # Get the bet slip code
     WebDriverWait(driver, 5).until(EC.element_to_be_clickable((By.XPATH, '//button[@class="save-coupon__copy save-coupon-copy-btn"]'))).click()
 
     driver.implicitly_wait(5)
@@ -313,4 +262,10 @@ def is_date_less(input_date_str, limit_date_str):
   # Check if input date is less or equal than the limit date
   return input_date <= limit_date
 
-make_bet_slip()
+# make_bet_slip()
+# make_bet_slip(min_odd=1.01, max_odd=1.50, num_games=210, total_odds=35.0)
+
+make_bet_slip(min_odd=0, max_odd=0 , num_games=0, total_odds=0, start_date="", end_date="")
+# exemple d'appel avec arguments: make_bet_slip(min_odd=1.01, max_odd=1.15, num_games=40, total_odds=10, start_date="18/05/2024", end_date="19/05/2024")
+
+
